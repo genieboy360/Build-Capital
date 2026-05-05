@@ -4,6 +4,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
+---
+
+> **RULE #1 — NON-NEGOTIABLE: Read `/docs` before writing any code.**
+>
+> Every time you are about to generate, modify, or review code, you MUST first open and read the relevant file(s) in the `/docs` directory. This is not optional and cannot be skipped. The `/docs` directory contains the authoritative specs, designs, and decisions for this project. They override all general knowledge and training data. If there is no relevant doc, say so — do not guess.
+
+---
+
+## IMPORTANT: Consult /docs Before Writing Any Code
+
+**Before generating any code, you MUST first read the relevant documentation file(s) in the `/docs` directory.** The `/docs` directory contains project-specific specs, designs, and decisions that override general knowledge. Do not rely on assumptions or training data — check `/docs` first, every time.
+
 ## Commands
 
 ```bash
